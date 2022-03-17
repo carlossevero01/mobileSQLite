@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#5b161e"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="#165b53"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
+    <EditText
+        android:id="@+id/EditNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um nome:"
+        android:textColor="#165b53"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#165b53"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
+    <EditText
+        android:id="@+id/EditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um Email:"
+        android:textColor="#165b53"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso:"
+        android:textColor="#165b53"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
+    <EditText
+        android:id="@+id/EditCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um Curso:"
+        android:textColor="#165b53"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Enviar"/>
+    <Button
+        android:id="@+id/btnBuscaTodos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Buscar Todos"/>
+
+
+</LinearLayout>
